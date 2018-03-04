@@ -61,7 +61,33 @@ a {
 
 footer{
     width: 100%;
-    height: 100px;
+    height: 100%;
     background-color:white;
-    text-align: center;
+    margin-top: 20px;
+    padding-top: 5px;
+    display: flex;
+
+}
+
+.contato{
+  margin-right:300px;
+}
+.contato, li{
+
+  list-style: none;
+}
+li{
+  position: relative;
+  right: 10px;
+  top:-10px;
+}
+.Ifooter1{
+width: 30px;
+}
+.Ifooter{
+width: 40px;
+}
+
+.Sredes{
+  width: 200px;
 }

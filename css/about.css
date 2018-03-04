@@ -26,7 +26,7 @@ div img{
 /* div p{
   margin-top: -60px;
   border-left: 0.5px solid black;
-  /* border-top: 0.5px solid black; 
+  /* border-top: 0.5px solid black;
   box-shadow: 1px black;
   padding:10px;
 } */
@@ -41,4 +41,39 @@ h3{
 h2{
   font-size: 35px;
   margin-top:3px;
+}
+footer{
+    width: 100%;
+    height: 100%;
+    background-color:white;
+    margin-top: 20px;
+    padding-top: 5px;
+    display: flex;
+
+}
+
+.contatosobre{
+  border:none;
+  margin-right:300px;
+}
+.contato, li{
+
+  list-style: none;
+}
+li{
+  position: relative;
+  right: 10px;
+  top:-10px;
+}
+.Ifooter{
+  border:none;
+width: 30px;
+}
+
+.redessobre{
+  border:none;
+}
+.Sredes{
+  border:none;
+  width: 200px;
 }
