@@ -1,0 +1,44 @@
+.corpo{
+    width: 100%;
+    height: 100%;
+    background-color:white;
+    display: flex;
+}
+
+div{
+  border-left: 0.5px solid black;
+  border-top: 0.5px solid black;
+  box-shadow: 1px black;
+  width:300px;
+  margin-top:20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+  padding: 10px;
+}
+div p{
+  padding:10px;
+}
+
+div img{
+  width: 50px;
+}
+/* div p{
+  margin-top: -60px;
+  border-left: 0.5px solid black;
+  /* border-top: 0.5px solid black; 
+  box-shadow: 1px black;
+  padding:10px;
+} */
+h3{
+  position: relative;
+  left:55px;
+  top:-75px;
+  font-size: 30px;
+  margin-bottom: 0;
+
+}
+h2{
+  font-size: 35px;
+  margin-top:3px;
+}
