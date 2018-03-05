@@ -22,7 +22,7 @@ section{
     align-self: center;
 }
 
-div{
+.tabelaSolucao{
     background-color: azure;
 }
 
@@ -31,7 +31,7 @@ h1{
     text-align: center;
 }
 
-div{
+.tabelaSolucao{
     display: flex;
 }
 h1{
@@ -56,4 +56,48 @@ input{
 
 form{
     margin-left: 20px;
+}
+
+/* NAV BAR */
+nav{
+    background-color: #32325b;
+    width: 100%;
+    height: 75px;
+    display: flex;
+}
+
+nav div{
+    height: 75px;
+}
+
+nav div img{
+    height: 100%;
+}
+
+.title{
+    color: white;
+    font-weight: bold;
+    margin-top: 1.7%;
+    font-size: 24px;
+}
+.menu{
+    width: 64%;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.menu ul li{
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.menu ul li a{
+    color: white;
+    justify-content: flex-end;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
 }
